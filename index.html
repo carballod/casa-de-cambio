@@ -4,20 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Casa de Cambio</title>
 </head>
 <body>
-    <h1>Casa de Cambio</h1>
     <div>
-        <form action="cambio.php" method="post">
-            <label for="cantidad">Cantidad</label>
-            <input type="number" name="cantidad" id="cantidad">
-            <label for="moneda">Moneda</label>
-            <select name="moneda" id="moneda">
-                <option value="dolar">Dolar</option>
-            </select>
-            <input type="submit" value="Convertir">
-        </form>
+        <form class="estilo-form">
+
+            <h1>CASA DE CAMBIO</h1>
+
+             <div class="input-estilo">
+                 <input id="campo-cantidad" type="number" min="1" name="cantidad" placeholder="Cantidad" required="required" inputmode="numeric">
+             </div>
+
+             <div class="select-container">
+               <select class="select-estilo">
+               </select>
+             </div>
+
+             <div class="select-container">
+               <select class="select-estilo">
+               </select>
+             </div>
+
+             <div>
+               <div class="btn-calcular">
+                 Calcular
+               </div>
+             </div>
+
+             <div class="contenedor-resultado">
+             </div>
+   
+         </form>
+
+         <script src="script.js"></script>
     </div>
     
 </body>
