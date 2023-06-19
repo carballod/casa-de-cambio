@@ -16,10 +16,8 @@
     "url": "https://github.com/carballod/casa-de-cambio/issues"
   },
   "homepage": "https://github.com/carballod/casa-de-cambio#readme",
-  "description": "",
   "devDependencies": {
-    "eslint": "^8.35.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.27.5"
-  }
+    "cypress": "^12.14.0"
+  },
+  "description": ""
 }
